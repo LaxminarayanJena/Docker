@@ -1,15 +1,15 @@
-1)Download docker tool box
+1)Download docker tool box 
 2)Open docker terminal
 
 ------------------------------------------------------------------------------
-Starting hub--
+### Starting hub
 docker run -d --name selenium-hub -p 4444:4444 selenium/hub:3.12.0-boron
 
-Registering chrome node--
+### Registering chrome node--
 
 docker run -d -P -p 5900:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-chrome-debug:3.12.0-boron
 
-Registering firefox node
+### Registering firefox node
 docker run -d -P -p 5901:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-firefox-debug:3.12.0-boron
 
 
