@@ -23,3 +23,8 @@ Open window powershell and go to docker-compose.yml location
 
 ------------------------------------------
 vnc viewer password-secret
+
+-------------------------------------
+## other commands </br>
+1)docker ps </br>
+2)docker images
