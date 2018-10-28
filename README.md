@@ -28,3 +28,15 @@ vnc viewer password-secret
 ## other commands </br>
 1)docker ps </br>
 2)docker images
+
+----***********************-----------------------
+Run on 5 chrome and 5 firefox
+
+Open window powershell and go to docker-compose.yml location
+
+docker-compose down
+
+docker-compose up -d
+docker-compose scale chromenode=5 firefoxnode=5
+
+add portno in kinematic alpha
