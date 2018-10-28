@@ -1,5 +1,6 @@
 # To execute this docker-compose yml file use docker-compose -f <file_name> up
 # Add the "-d" flag at the end for deattached execution
+# Remove port binding no if it throws error for port already exists
 
 version: '2'
 services:
