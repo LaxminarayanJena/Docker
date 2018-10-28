@@ -29,8 +29,8 @@ vnc viewer password-secret
 1)docker ps </br>
 2)docker images
 
-----***********************-----------------------
-Run on 5 chrome and 5 firefox
+
+#### Run on 5 chrome and 5 firefox  </br>
 
 Open window powershell and go to docker-compose.yml location </br>
 
